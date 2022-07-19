@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(60, 60, 66);
+    color: antiquewhite;
+
+    min-height: 100vh; 
+    margin: 0; 
+    
+  
+
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin: 0%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.grid-item {
+    /* border: 2px dotted black; */
+}
+
+#head-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1%;
+    height: 50%;
+    flex-shrink: 1;
+}
+
+.right-header {
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.left-header {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 1;
+}
+
+.left-header-item{
+     padding: 2%;
+}
+
+#image-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 35%;
+    height: 60%;
+}
+
+#search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    border: 1px solid beige;
+    border-radius: 50px;
+    width: 60%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box-items {
+    background: transparent;
+    margin: 2%;
+}
+
+input {
+    flex-grow: 2;
+    border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#button-items{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-2 {
+    margin: 1%;
+    height: 60%;
+    background: transparent;
+}
+
+#lang-item {
+    display: flex;
+    justify-content: center;
+}
+
+input::-webkit-input-placeholder {
+    font-family: 'Material Icons Outlined'
+}
+
+input::-moz-placeholder  {
+    font-family: 'Material Icons Outlined';
+}
+
+input:-ms-input-placeholder {
+    font-family: 'Material Icons Outlined';
+}
+
+input:-moz-placeholder {
+    font-family: 'Material Icons Outlined';
+}
+
+.footer {
+    background-color: rgb(51, 41, 38);
+    margin: 0%;
+}
+
+.co2-link {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-item2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 2%;
+}
+
+.footer-item3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 3%;
+}
+
+#footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#foooter-item1 {
+    margin-left: 1%;
+}
+
+/* .test1{
+    display: flex;
+    border: 2px solid black ;
+    width: 50%;
+    justify-content: space-between;
+}
+
+input{
+    flex-grow: 2;
+}
+
+.test{
+    flex-grow: 1;
+} */
+
+
+
+/* .right-links {
+    display: flex;
+/* /*     justify-content: space-between; */
+/* width: 47%;
+}
+
+.left-links{
+    display: flex;
+    justify-content: space-between;
+    width: 47%; */
+} */ */
